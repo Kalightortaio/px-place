@@ -1,0 +1,19 @@
+Grid of cells
+
+cells
+- element, default void
+- neighborhood of cell states
+- equilibrium, binary
+
+Elements
+- Density
+- Temperature
+1. Liquid
+2. Solid
+3. Gas
+
+On Tick:
+Iterate through map, through each chunk. Chunks are large groups of cells (50x50).
+If the chunk or neighboring chunk was modified last tick, then iterate through those chunks to check for cell changes.
+This way, we don't have to iterate through the entire map.
+Map -> Chunks -> Cells.
