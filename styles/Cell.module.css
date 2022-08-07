@@ -1,6 +1,12 @@
 .container {
     width: 10px;
     height: 10px;
+    cursor: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .container:hover {
