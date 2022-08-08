@@ -2,6 +2,10 @@
   width: 1000px;
   height: 1000px;
   background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: 10px grey;
+  outline-style: solid;
   display: grid;
   grid-template-columns: repeat(10, 100px);
   grid-template-rows: repeat(10, 100px);
